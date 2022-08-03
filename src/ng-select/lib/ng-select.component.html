@@ -34,6 +34,7 @@
 
             <input #searchInput
                    [attr.id]="labelForId"
+                   [attr.name]="labelForId"
                    [attr.tabindex]="tabIndex"
                    [readOnly]="!searchable || itemsList.maxItemsSelected"
                    [disabled]="disabled"
